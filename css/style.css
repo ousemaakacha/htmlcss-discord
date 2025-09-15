@@ -1,0 +1,84 @@
+.debug {
+  header {
+    height: 100px;
+    background-color: green;
+  }
+
+  .container {
+    background-color: rgba(255, 166, 0, 0.535);
+    height: 100px;
+  }
+
+  * {
+    border: 1px dashed;
+  }
+
+  .container-small {
+    background-color: pink;
+    margin: auto;
+    width: 65%;
+  }
+
+  section {
+    height: 350px;
+    background-color: rgba(255, 0, 0, 0.586);
+  }
+
+  footer {
+    background-color: rgba(0, 0, 0, 0.676);
+    height: 500px;
+  }
+}
+
+/* common rules */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.just-cont {
+  justify-content: space-between;
+}
+
+.li-unl {
+  list-style: none;
+}
+
+.jumbotron {
+  height: 400px;
+  background-color: purple;
+}
+
+header {
+  padding: 0.5rem 0;
+}
+
+.jumbotron .container {
+  width: 65%;
+}
+
+/* main */
+
+.w70 {
+  width: 70%;
+}
+
+.w30 {
+  width: 30%;
+}
+
+section {
+  padding: 3rem 0;
+}
