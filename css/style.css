@@ -55,7 +55,9 @@
 
 .jumbotron {
   height: 400px;
-  background-image: url(jumbo.png);
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 header {
@@ -105,8 +107,9 @@ section {
   gap: 1rem;
   margin: auto;
   width: 65%;
-  background-color: rgba(255, 192, 203, 0.742);
   padding: 5rem;
+  color: white;
+  font-size: 20px;
 }
 
 h1 {
@@ -146,4 +149,28 @@ h2 {
 
 .channel .d-flex {
   justify-content: space-between;
+}
+
+.meeting .d-flex {
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+
+  h3 {
+    text-align: center;
+    margin: 2rem;
+    background-image: url("../img/stars.svg");
+    height: 100px;
+  }
+
+  button {
+    align-items: center;
+    border-radius: 20px;
+    height: 30px;
+    padding: 0 15px;
+    border: none;
+    background-color: #8ea1e1;
+    color: white;
+  }
 }
